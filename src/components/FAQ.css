@@ -1,0 +1,23 @@
+.close{
+    height: 0px;
+    overflow: hidden;
+    transition: height  ease-in-out 0.3s;
+}
+.open{
+    height: 120px;
+    transition: height  ease-in-out 0.3s;
+}
+.arrowBefore{
+    transform: rotate(180deg);
+    transition: all ease 0.3s;
+    
+}
+.arrowAfter{
+    transform: rotate(0deg);
+    transition: all ease 0.3s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.title{
+    -webkit-tap-highlight-color: transparent;
+}
