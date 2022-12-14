@@ -4,7 +4,7 @@ import Youtube from "../images/youtube.png";
 function Footer() {
   return (
     <>
-      <div className="footer bg-[#1A2142] text-white flex  items-center sm:p-4 p-6 mb-5">
+      <div className="footer bg-[#1A2142] text-white flex  items-center sm:p-4 p-6 mb-8">
        
       <div className="my-2">
         <a href="https://www.instagram.com/michen_0/" target="_blank" rel="noopener noreferrer"><img src={Youtube} width={60} alt="" /></a>

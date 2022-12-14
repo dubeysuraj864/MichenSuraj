@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <div className="home relative bg-[#82C270] pb-10 ">
-        <div className="fixed z-40 bottom-10 right-3">
+        <div className="fixed z-40 bottom-20 right-2">
           <a href="https://wa.me/message/SLRIMKZXUT2KO1" target="_blank" rel="noopener noreferrer"><img className="drop-shadow-lg" src={Whatsapp} width={50} alt="" /></a>
       
           
