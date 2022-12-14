@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import RectangleImage1 from "../images/recImage1.png";
 import RectangleImage2 from "../images/recImage2.png";
 import RectangleImage3 from "../images/recImage3.png";
@@ -29,7 +30,7 @@ function Rectangle() {
           data-aos-duration="1000"
         >
           <div className="rec bg-[#FFFFFF]  p-4 rounded-tr-3xl rounded-bl-3xl drop-shadow-md m-auto ">
-            <div className=" sm:px-2 flex  justify-between items-center  sm:max-w-xl">
+            <div className=" sm:px-2 flex  justify-between items-center sm:max-w-xl">
               <div className="">
                 <div className="title font-bold my-1 text-lg sm:text-2xl">
                   {text.card1Text1}
