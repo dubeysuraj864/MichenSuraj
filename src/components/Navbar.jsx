@@ -11,7 +11,7 @@ function Navbar() {
                 <div className="p-num">
                    <a href="tel:+91 6849842700" target="_blank" rel="noopener noreferrer"> +91-6849842700</a>
                 </div>
-                <div className="call text-[#EEC843] font-bold text-sm flex items-center">
+                <div className="call text-[#EEC843] font-bold text-sm flex items-center animate-bounce">
                     <div>
                         <img src={Phone} className="w-4 mr-1" alt="" />
                     </div>

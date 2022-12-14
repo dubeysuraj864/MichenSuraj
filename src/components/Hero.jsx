@@ -17,10 +17,10 @@ function Hero() {
         <div className="bottom flex justify-center items-center p-0 m-4 sm:w-3/5"  data-aos="zoom-in-down"  data-aos-duration="1000">
           <img
             src={Leaf}
-            className="absolute mb-2 mr-10 z-20 scale-125  sm:w-5/5"
+            className="absolute mb-2 mr-10 z-20 scale-125  sm:w-5/5 "
             alt=""
           />
-          <img src={LemonRice} className="w-80  sm:w-4/5 z-20 " alt="" />
+          <img src={LemonRice} className="w-80  sm:w-4/5 z-20  " alt="" />
         </div>
       </div>
     </>
