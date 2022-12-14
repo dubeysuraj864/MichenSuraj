@@ -11,7 +11,7 @@ function App() {
   })
   return (
     <div className="App">
-     <Suspense fallback={<div>Please wait...</div>}>
+     <Suspense fallback={<div></div>}>
      <Home/>
      </Suspense>
     </div>

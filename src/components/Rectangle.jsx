@@ -31,7 +31,7 @@ function Rectangle() {
           <div className="rec bg-[#FFFFFF]  p-4 rounded-tr-3xl rounded-bl-3xl drop-shadow-md m-auto ">
             <div className=" sm:px-2 flex  justify-between items-center  sm:max-w-xl">
               <div className="">
-                <div className="title font-bold my-1 text-xl sm:text-3xl">
+                <div className="title font-bold my-1 text-lg sm:text-2xl">
                   {text.card1Text1}
                 </div>
                 <div className="info font-semibold text-md sm:my-3 sm:text-lg">
@@ -65,7 +65,7 @@ function Rectangle() {
           <div className="rec bg-[#FFFFFF]  p-4 rounded-tr-3xl rounded-bl-3xl drop-shadow-md m-auto ">
             <div className=" sm:px-2 flex  justify-between items-center sm:max-w-xl">
               <div className="">
-                <div className="title font-bold my-1 text-xl sm:text-2xl">
+                <div className="title font-bold my-1 text-lg sm:text-2xl">
                   {text.card2Text1}
                 </div>
                 <div className="info font-semibold text-md sm:my-3 sm:text-lg">
@@ -99,7 +99,7 @@ function Rectangle() {
           <div className="rec bg-[#FFFFFF]  p-4 rounded-tr-3xl rounded-bl-3xl drop-shadow-md m-auto ">
             <div className=" sm:px-2 flex  justify-between  sm:max-w-xl">
               <div className="">
-                <div className="title font-bold my-1 text-xl sm:text-2xl">
+                <div className="title font-bold my-1 text-lg sm:text-2xl">
                   {text.card3Text1}
                 </div>
                 <div className="info font-semibold text-md sm:my-3 sm:text-lg">
