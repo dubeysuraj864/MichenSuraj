@@ -1032,21 +1032,18 @@ video {
   src: url("../src/style/Kollektif.ttf");
 }
 
-html{
-  scroll-padding-top: 100px;
-  scroll-behavior: smooth;
-}
-
-.footer-logo {
-  font-family: Kollektif;
-}
-
-.fixedfooter {
-  font-family: Kollektif;
+.hero {
+  margin-top: 60px;
+  font-family: Motoya;
 }
 
 nav {
   font-family: Kollektif;
+}
+
+html{
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 .btn{
@@ -1057,13 +1054,16 @@ nav {
   font-family: Kollektif;
 }
 
-.hero {
-  margin-top: 60px;
-  font-family: Motoya;
-}
-
 .more {
   font-family: Joynoted;
+}
+
+.footer-logo {
+  font-family: Kollektif;
+}
+
+.fixedfooter {
+  font-family: Kollektif;
 }
 
 .hover\:scale-110:hover {
