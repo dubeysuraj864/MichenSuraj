@@ -3,45 +3,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: Joynoted;
-  src: url("../src/style/Joynoted.ttf");
-}
-@font-face {
-  font-family: Motoya;
-  src: url("../src/style/Motoya.ttf");
-}
-@font-face {
-  font-family: Kollektif;
-  src: url("../src/style/Kollektif.ttf");
-}
-.hero {
-  margin-top: 60px;
-  font-family: Motoya;
-}
-nav {
-  font-family: Kollektif;
-}
-html{
-  scroll-padding-top: 100px;
-scroll-behavior: smooth;
-}
-
-
-.btn{
-  font-family: Kollektif;
-}
-.title {
-  font-family: Kollektif;
-}
-
-.more {
-  font-family: Joynoted;
-}
-.footer-logo {
-  font-family: Kollektif;
-}
-.fixedfooter {
-  font-family: Kollektif;
-}
+@import "./Page/Home.css";

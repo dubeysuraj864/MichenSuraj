@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 import Whatsapp from "../images/whatsapp.webp";
 import FixedFooter from "../components/FixedFooter";
 import Button from "../components/Button";
-import "./Home.css";
 const Hero = React.lazy(() => import("../components/Hero"));
 
 function Home() {

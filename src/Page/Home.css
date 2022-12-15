@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: Joynoted;
+    src: url("../style/Joynoted.ttf");
+  }
+  @font-face {
+    font-family: Motoya;
+    src: url("../style/Motoya.ttf");
+  }
+  @font-face {
+    font-family: Kollektif;
+    src: url("../style/Kollektif.ttf");
+  }
+  .hero {
+    margin-top: 60px;
+    font-family: Motoya;
+    font-display: swap;
+  }
+  nav {
+    font-family: Kollektif;
+    font-display: swap;
+  }
+  html{
+    scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+  font-display: swap;
+  }
+  
+  
+  .btn{
+    font-family: Kollektif;
+    font-display: swap;
+  }
+  .title {
+    font-family: Kollektif;
+    font-display: swap;
+  }
+  
+  .more {
+    font-family: Joynoted;
+    font-display: swap;
+  }
+  .footer-logo {
+    font-family: Kollektif;
+  }
+  .fixedfooter {
+    font-family: Kollektif;
+  }
