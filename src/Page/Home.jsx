@@ -1,28 +1,38 @@
+import React, { Suspense } from "react";
+import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Rectangle from "../components/Rectangle";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Whatsapp from "../images/whatsapp.png";
 import FixedFooter from "../components/FixedFooter";
+import Button from "../components/Button";
+const Hero = React.lazy(() => import("../components/Hero"));
 
 function Home() {
   return (
     <>
       <div className="home relative bg-[#82C270] pb-10 ">
-        <div className="fixed z-40 bottom-16 sm:bottom-12 right-2">
+        <div className="fixed z-40 bottom-16 sm:bottom-12 right-2 transition-all  hover:scale-110">
           <a
             href="https://wa.me/message/SLRIMKZXUT2KO1"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="drop-shadow-lg" src={Whatsapp} width={50} alt="" />
+            <img className="drop-shadow-lg " src={Whatsapp} width={50} alt="" />
           </a>
         </div>
         <Navbar />
 
         <div className="flex justify-center">
-          <Hero />
+          <Suspense fallback={<Loader />}>
+            <Hero />
+          </Suspense>
+        </div>
+
+        <div className=" flex  justify-center items-center sm:mx-20 p-0">
+          <Button name={"What we do"} link={"#"} />
         </div>
 
         <div className="rectangles sm:flex  justify-center items-center sm:mt-10">
