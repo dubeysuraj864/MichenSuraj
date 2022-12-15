@@ -30,7 +30,7 @@ function Hero() {
             >
               <img
                 src={Leaf}
-                className="absolute sm:mr-10 w-[300px] sm:w-[300px] sm:scale-[2.0] scale-[1.4] pb-8 mr-8 sm:pb-0 "
+                className="absolute sm:mr-10 w-[300px] sm:w-[300px] sm:scale-[2.0] scale-[1.4] pb-8 mr-10 sm:pb-0 "
                 alt="leaf"
               />
 
