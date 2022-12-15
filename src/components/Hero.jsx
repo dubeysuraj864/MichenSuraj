@@ -1,5 +1,5 @@
-import Leaf from "../images/leaf.png";
-import LemonRice from "../images/lemon-rice.png";
+import Leaf from "../images/leaf.webp";
+import LemonRice from "../images/lemon-rice.webp";
 
 function Hero() {
   return (

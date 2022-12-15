@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import RectangleImage1 from "../images/recImage1.png";
-import RectangleImage2 from "../images/recImage2.png";
-import RectangleImage3 from "../images/recImage3.png";
+import RectangleImage1 from "../images/recImage1.webp";
+import RectangleImage2 from "../images/recImage2.webp";
+import RectangleImage3 from "../images/recImage3.webp";
 
 function Rectangle() {
   const [text] = useState({

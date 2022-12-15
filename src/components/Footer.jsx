@@ -1,5 +1,5 @@
-import Instagram from "../images/insta.png";
-import Youtube from "../images/youtube.png";
+import Instagram from "../images/insta.webp";
+import Youtube from "../images/youtube.webp";
 
 function Footer() {
   return (

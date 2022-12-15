@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Rectangle from "../components/Rectangle";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
-import Whatsapp from "../images/whatsapp.png";
+import Whatsapp from "../images/whatsapp.webp";
 import FixedFooter from "../components/FixedFooter";
 import Button from "../components/Button";
 const Hero = React.lazy(() => import("../components/Hero"));

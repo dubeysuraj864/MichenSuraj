@@ -1,4 +1,4 @@
-import LoaderImage from "../images/loaderImg.png"
+import LoaderImage from "../images/loaderImg.webp"
 
 function Loader() {
   return (

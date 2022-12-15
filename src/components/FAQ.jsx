@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Arrow from "../images/arrow.png";
+import Arrow from "../images/arrow.webp";
 import "./FAQ.css";
 
 function FAQ(props) {
