@@ -5,8 +5,8 @@ import 'aos/dist/aos.css';
 const Home = React.lazy(() => import('./Page/Home'));
 function App() {
   AOS.init({
-    offset:200,
-  duration:900
+    offset:100,
+  duration:600
   })
 
   return (

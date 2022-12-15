@@ -37,7 +37,7 @@ function Home() {
         </div>
 
         <div className=" flex  justify-center items-center sm:mx-20 p-0">
-          <Button name={"What we do"} link={"#"} />
+          <Button name={"What We Do"} link={"#"} />
         </div>
 
         <div className="rectangles sm:flex  justify-center items-center sm:mt-10">
