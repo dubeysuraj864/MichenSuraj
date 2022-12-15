@@ -24,12 +24,11 @@ function Hero() {
           data-aos-duration="1000"
         >
           <img
-          loading="lazy"
             src={Leaf}
             className="absolute mb-2 mr-10 z-20 scale-125  sm:w-5/5 "
             alt=""
           />
-          <img src={LemonRice} loading="lazy" className="w-80  sm:w-4/5 z-20  " alt="" />
+          <img src={LemonRice} className="w-80  sm:w-4/5 z-20  " alt="" />
         </div>
       </div>
     </>
