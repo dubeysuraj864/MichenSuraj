@@ -21,8 +21,8 @@ function Rectangle() {
   });
 
   return (
-    <div>
-      <div className="">
+    <div id="rectangle">
+      <div  className="">
         
       <div
           className="card px-4 my-10 sm:w-5/6 m-auto"

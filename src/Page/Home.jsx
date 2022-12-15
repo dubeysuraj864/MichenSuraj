@@ -19,7 +19,7 @@ function Home() {
   return (
     <>
       <div onLoad={loaderFunction} className="home relative bg-[#82C270] pb-10 ">
-        <div className="fixed z-40 bottom-16 sm:bottom-12 right-2 transition-all  hover:scale-110">
+        <div className="fixed z-40 bottom-16 sm:bottom-12 right-2 transition-all  hover:scale-110 scroll-smooth ">
           <a
             href="https://wa.me/message/SLRIMKZXUT2KO1"
             target="_blank"
@@ -42,7 +42,7 @@ function Home() {
 
         <div className="rectangles sm:flex  justify-center items-center sm:mt-10">
           <div className="">
-            <Rectangle />
+            <Rectangle id="rectangle" />
           </div>
         </div>
       </div>
