@@ -3,7 +3,7 @@ import LoaderImage from "../images/loaderImg.png"
 function Loader() {
   return (
     <>
-      <div className=" w-full flex justify-center items-center">
+      <div id="loader" className=" w-full flex justify-center items-center">
         <div className="my-auto flex justify-center items-center h-[100vh]">
           <img src={LoaderImage} className="animate-spin" width={70} alt="" />
         </div>
