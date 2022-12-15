@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-
+import Loader from './components/Loader';
 // import Home from "./Page/Home";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -11,7 +11,8 @@ function App() {
   })
   return (
     <div className="App">
-     <Suspense fallback={<div></div>}>
+
+     <Suspense fallback={<Loader/>}>
      <Home/>
      </Suspense>
     </div>
