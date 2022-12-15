@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Joynoted;
+    src: url("../style/Joynoted.ttf");
+  }
+  @font-face {
+    font-family: Motoya;
+    src: url("../style/Motoya.ttf");
+  }
+  @font-face {
+    font-family: Kollektif;
+    src: url("../style/Kollektif.ttf");
+  }
+  
+  .footer-logo {
+    font-family: Kollektif;
+  }
+  .fixedfooter {
+    font-family: Kollektif;
+  }
+  nav {
+    font-family: Kollektif;
+  }
+  .btn{
+    font-family: Kollektif;
+  }
+  .title {
+    font-family: Kollektif;
+  }
+  .hero {
+    margin-top: 60px;
+    font-family: Motoya;
+  }
+  .more {
+    font-family: Joynoted;
+  }
