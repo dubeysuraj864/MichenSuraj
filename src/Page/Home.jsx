@@ -11,9 +11,13 @@ import Button from "../components/Button";
 const Hero = React.lazy(() => import("../components/Hero"));
 
 function Home() {
+  var preloader = document.getElementById('loading');
+  function loaderFunction() {
+      preloader.style.display = 'none';
+  }
   return (
     <>
-      <div className="home relative bg-[#82C270] pb-10 ">
+      <div onLoad={loaderFunction} className="home relative bg-[#82C270] pb-10 ">
         <div className="fixed z-40 bottom-16 sm:bottom-12 right-2 transition-all  hover:scale-110">
           <a
             href="https://wa.me/message/SLRIMKZXUT2KO1"
