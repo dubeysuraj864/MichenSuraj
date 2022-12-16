@@ -11,8 +11,8 @@ function Hero() {
           <div className="left sm:mr-20 sm:pt-14 sm:w-1/2">
             <div className="text text-center  sm:py-8 py-10 sm:text-left text-[30px] sm:text-6xl ">
               <div className="sm:pb-10">
-                One stop <br /> solution for all your <br />{" "}
-                <span className="text-[#F6D54B] font-bold">kitchen</span>{" "}
+                One stop <br /> solution for all your&nbsp; <br />
+                <span className="text-[#F6D54B] font-bold">kitchen&nbsp;</span>
                 hassle.
               </div>
               <Button
