@@ -22,9 +22,8 @@ function Rectangle() {
 
   return (
     <div id="rectangle">
-      <div  className="">
-        
-      <div
+      <div className="">
+        <div
           className="card px-4 my-10 sm:w-5/6 m-auto"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
@@ -43,11 +42,7 @@ function Rectangle() {
                 </div>
               </div>
               <div>
-                <img
-                  src={RectangleImage1}
-                  className="w-14 sm:w-30 "
-                  alt=""
-                />
+                <img src={RectangleImage1} className="w-14 sm:w-30 " alt="" />
               </div>
             </div>
             <div className="info font-semibold text-md sm:text-lg text-left sm:px-2">

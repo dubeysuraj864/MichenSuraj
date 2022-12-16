@@ -17,21 +17,20 @@ function FAQ(props) {
           >
             <span>{props.title}</span>
             <span>
-                {
-                    show ?  <img className="arrowBefore" src={Arrow} width={30} alt="" /> : <img className="arrowAfter" src={Arrow} width={30} alt="" />
-                }
-           
+              {show ? (
+                <img className="arrowBefore" src={Arrow} width={30} alt="" />
+              ) : (
+                <img className="arrowAfter" src={Arrow} width={30} alt="" />
+              )}
             </span>
           </div>
-          {show ? <div className="open" >{props.para}        <hr className="mt-6 border-3 border-black" /></div> : <div className="close" >
-            {props.para} 
-    
-            
+          {show ? (
+            <div className="open">
+              {props.para} <hr className="mt-6 border-3 border-black" />
             </div>
-            
-            }
-
-    
+          ) : (
+            <div className="close">{props.para}</div>
+          )}
         </div>
       </div>
     </>

@@ -1,24 +1,25 @@
 import React, { Suspense } from "react";
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
-// import Hero from "../components/Hero";
 import Rectangle from "../components/Rectangle";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Whatsapp from "../images/whatsapp.webp";
 import FixedFooter from "../components/FixedFooter";
 import Button from "../components/Button";
-import "./Home.css";
 const Hero = React.lazy(() => import("../components/Hero"));
 
 function Home() {
-  var preloader = document.getElementById('loading');
+  var preloader = document.getElementById("loading");
   function loaderFunction() {
-      preloader.style.display = 'none';
+    preloader.style.display = "none";
   }
   return (
     <>
-      <div onLoad={loaderFunction} className="home relative bg-[#82C270] pb-10 w-full">
+      <div
+        onLoad={loaderFunction}
+        className="home relative bg-[#82C270] pb-10 w-full"
+      >
         <div className="fixed z-40 bottom-16 sm:bottom-12 right-2 transition-all  hover:scale-110 scroll-smooth ">
           <a
             href="https://wa.me/message/SLRIMKZXUT2KO1"
