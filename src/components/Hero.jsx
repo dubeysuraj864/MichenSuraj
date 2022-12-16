@@ -11,8 +11,8 @@ function Hero() {
           <div className="left sm:mr-20 sm:pt-14 sm:w-1/2">
             <div className="text text-center  sm:py-8 py-10 sm:text-left text-[30px] sm:text-6xl ">
               <div className="sm:pb-10">
-                One stop <br /> solution for all your&nbsp; <br />
-                <span className="text-[#F6D54B] font-bold">kitchen&nbsp;</span>
+                One stop <br /> solution for all your <br />{" "}
+                <span className="text-[#F6D54B] font-bold">kitchen</span>{" "}
                 hassle.
               </div>
               <Button
@@ -23,7 +23,7 @@ function Hero() {
               />
             </div>
           </div>
-          <div className="right relative w-full sm:w-1/3 h-fit">
+          <div className="right relative w-full sm:w-1/3 h-fit sm:mr-20">
             <div
               className="images flex justify-center m-auto items-center py-10 sm:p-10  z-10 
             w-fit sm:w-[309px] h-[320px] sm:h-[309px] "

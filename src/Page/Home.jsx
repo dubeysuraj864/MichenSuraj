@@ -18,7 +18,7 @@ function Home() {
     <>
       <div
         onLoad={loaderFunction}
-        className="home relative bg-[#82C270] pb-10 w-full"
+        className="home relative bg-[#82C270] pb-10"
       >
         <div className="fixed z-40 bottom-16 sm:bottom-12 right-2 transition-all  hover:scale-110 scroll-smooth ">
           <a
