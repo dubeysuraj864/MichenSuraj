@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: Motoya;
-  src: url("./style/Motoya.woff");
+  src: url("./style/Motoya.woff2");
 }
 @font-face {
   font-family: Joynoted;
-  src: url("./style/Joynoted.woff2");
+  src: url("./style/Joynoted.woff");
 }
 
 @font-face {
