@@ -4,16 +4,16 @@
 
 @font-face {
   font-family: Motoya;
-  src: local("./style/Motoya.woff");
+  src: url("./style/Motoya.woff");
 }
 @font-face {
   font-family: Joynoted;
-  src: local("./style/Joynoted.woff");
+  src: url("./style/Joynoted.woff2");
 }
 
 @font-face {
   font-family: Kollektif;
-  src: local("./style/Kollektif.woff");
+  src: url("./style/Kollektif.woff");
 }
 .hero {
   margin-top: 60px;
