@@ -1,15 +1,15 @@
 
 @font-face {
     font-family: Joynoted;
-    src: url("../style/Joynoted.ttf");
+    src: url("../style/Joynoted.woff");
   }
   @font-face {
     font-family: Motoya;
-    src: url("../style/Motoya.ttf");
+    src: url("../style/Motoya.woff");
   }
   @font-face {
     font-family: Kollektif;
-    src: url("../style/Kollektif.ttf");
+    src: url("../style/Kollektif.woff");
   }
   .hero {
     margin-top: 60px;
