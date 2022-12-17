@@ -7,7 +7,7 @@ function FAQ(props) {
 
   return (
     <>
-      <div className="faq flex justify-center mb-0 px-2 ">
+      <div className="faq flex justify-center mb-0 px-2 h-fit">
         <div className="w-full sm:w-1/2 px-6">
           <div
             onClick={() => {
@@ -26,7 +26,7 @@ function FAQ(props) {
           </div>
           {show ? (
             <div className="open">
-              {props.para} <hr className="mt-6 border-3 border-black" />
+              {props.para} <hr className="mt-4 border-3 border-gray-400 pb-10" />
             </div>
           ) : (
             <div className="close">{props.para}</div>

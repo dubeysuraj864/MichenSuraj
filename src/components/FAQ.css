@@ -5,10 +5,12 @@
 }
 .open {
   height: 120px;
-  transition: height ease-in-out 0.3s;
+  transition: height ease-in-out 0.5s;
 }
+
 .arrowBefore {
-  transform: rotate(180deg);
+  scroll-behavior: smooth;
+  transform: rotate(-180deg);
   transition: all ease 0.3s;
 }
 .arrowAfter {

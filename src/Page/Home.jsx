@@ -48,20 +48,20 @@ function Home() {
         </div>
       </div>
       <div className="faq mb-10">
-        <div className=" text-center my-10 font-bold text-xl">
-          Frequently ask Questions
+        <div className=" text-center my-10 font-bold text-xl sm:text-2xl">
+          Frequently Asked Questions
         </div>
         <div>
           <FAQ
-            title={"Where you send my meal plan"}
+            title={"Where you send my meal plan ?"}
             para={
-              " We send meal plan to your WhatsApp on a daily basis. You can suggest us changes if you want on WhatsApp only"
+              " We send meal plan to your WhatsApp on a daily basis. You can suggest us changes if you want on WhatsApp only."
             }
           />
         </div>
         <div>
           <FAQ
-            title={"From where you order my grocery"}
+            title={"From where you order my grocery ?"}
             para={
               "We order grocery using known grocery delivery apps like Blinkit, Instamart, Zepto, Milkbasket etc. You can suggest your favourite app we will use it. "
             }
@@ -69,7 +69,7 @@ function Home() {
         </div>
         <div>
           <FAQ
-            title={"What if you charge more for grocery"}
+            title={"What if you charge more for grocery ?"}
             para={
               "As mentioned above we use known grocery delivery apps and their invoices. We don't charge any extra amount other than the invoice. "
             }
@@ -77,7 +77,7 @@ function Home() {
         </div>
         <div>
           <FAQ
-            title={"How you communicate with my cook"}
+            title={"How you communicate with my cook ?"}
             para={
               " We communicate with them using WhatsApp voice messages and phone calls."
             }
